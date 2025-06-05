@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+
+#sampleTable {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+
+#sampleTable td, #sampleTable th {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+
+#sampleTable tr.new-row td {
+  background-color: #d1f7d6; 
+  font-weight: bold;
+}
+
+
+#sampleTable tr:hover {
+  background-color: #f0f0f0;
+}
